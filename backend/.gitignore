@@ -1,0 +1,17 @@
+cd ..   # vuelves a Movie-booking-System/
+cat > .gitignore << 'EOF'
+# Raíz
+.DS_Store
+*.log
+node_modules/
+# Front
+front/node_modules/
+front/.next/
+# Backend
+backend/node_modules/
+backend/dist/
+backend/.env
+EOF
+
+echo "20" > .nvmrc
+.env
